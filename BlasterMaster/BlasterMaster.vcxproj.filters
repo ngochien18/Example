@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{1047a3bb-3e6c-4904-bbf0-fc4bd33552ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Animation">
+      <UniqueIdentifier>{48756188-9848-489d-a489-c35989f80981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sprite">
+      <UniqueIdentifier>{f519c40e-e27b-42c0-9ddd-d87a5689458f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Texture">
+      <UniqueIdentifier>{3bf9369f-beda-442d-9a28-ffcbbe23a2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source">
+      <UniqueIdentifier>{9c39185b-ef4d-4330-ad18-4a8ca405acce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object">
+      <UniqueIdentifier>{f7b2a0dc-feff-4208-b6b8-7f366f31ef22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Player">
+      <UniqueIdentifier>{def4f0bb-0aa9-4c35-89d6-b68da4634d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Enemy">
+      <UniqueIdentifier>{4b02eada-a2e7-443b-8ad3-4e7e7897d3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input Handler">
+      <UniqueIdentifier>{b2102b0d-d278-470f-90e0-ca0da0bb9927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Camera">
+      <UniqueIdentifier>{a7a52af2-801a-4e6a-a80b-275f5361954e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Space Partitioning">
+      <UniqueIdentifier>{1c07c8b6-6343-4aca-b542-d821c32e1be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Player\Sophia">
+      <UniqueIdentifier>{d67444e6-a1a2-43d3-b364-2bff9f7d198c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Player\Sophia\Direct State">
+      <UniqueIdentifier>{b836765d-4bee-41ba-b4e1-2d61e1386143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Player\Jason">
+      <UniqueIdentifier>{ca188f76-461c-43e4-bae3-589af9e18a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Enemy\Scrolling">
+      <UniqueIdentifier>{29b14fda-aaeb-4a75-90c6-23ebb934e28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Enemy\Top Down">
+      <UniqueIdentifier>{38eaed9a-be69-45b5-8749-aeec8b0e8d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Physics">
+      <UniqueIdentifier>{5f349657-9117-461a-b81d-9b90874ab101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Player\Sophia\Sophia Child">
+      <UniqueIdentifier>{03ac4de7-2943-4529-8d37-75a149eab6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Player\Sophia\Action State">
+      <UniqueIdentifier>{477a9c8d-6a00-4a24-ac93-e41a70032279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Bullet">
+      <UniqueIdentifier>{672d73e8-d527-4868-90b9-3208696075b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Bullet\Enemy Bullet">
+      <UniqueIdentifier>{034fcebb-def6-413b-af6f-3410beffadbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Bullet\Player Bullet">
+      <UniqueIdentifier>{16c3fb4d-c401-4cb1-8db6-6284ba28e0d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game Object">
+      <UniqueIdentifier>{e22dcf06-1af2-4643-a949-d6df05b11e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Items">
+      <UniqueIdentifier>{8f8575af-cef9-4da4-be7f-b5b65f5b7a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utils">
+      <UniqueIdentifier>{c09eac23-5e5a-4945-afd7-ec1559d1959c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{5b91a1d8-c74c-4bfe-89be-84e206be9c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Portal">
+      <UniqueIdentifier>{8bd9cddb-2cdb-4039-88b5-d7d2c26bcb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\VFX">
+      <UniqueIdentifier>{87fafa5a-a9e2-455b-8ad6-e5c312492ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Player\Big Jason">
+      <UniqueIdentifier>{85381c3e-32cf-4d57-a651-8a3ce1e66371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Canvas">
+      <UniqueIdentifier>{76e56c47-8df1-4274-a6f4-ba9b2c8e49f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Platform">
+      <UniqueIdentifier>{2f36ebcb-16a4-4cc3-96a7-919319cf5fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Game Object\Boss">
+      <UniqueIdentifier>{3f3f1f68-dca9-4e16-80ee-452f04057ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Audio">
+      <UniqueIdentifier>{153ead95-b7cd-4208-8c9f-6eb9fd9f875c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animations.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationFrame.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>Framework\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Framework\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Framework\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyEventHandler.cpp">
+      <Filter>Framework\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Playable.cpp">
+      <Filter>Game Source\Game Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>Framework\Space Partitioning</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaState.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia</Filter>
+    </ClCompile>
+    <ClCompile Include="Sophia.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaMoveRightState.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Action State</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaMoveLeftState.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Action State</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaIdleState.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Action State</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaUpwardState.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Direct State</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaHorizontalState.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Direct State</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaUpward45State.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Direct State</Filter>
+    </ClCompile>
+    <ClCompile Include="Jason.cpp">
+      <Filter>Game Source\Game Object\Player\Jason</Filter>
+    </ClCompile>
+    <ClCompile Include="Drap.cpp">
+      <Filter>Game Source\Game Object\Enemy\Top Down</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2D.cpp">
+      <Filter>Framework\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Ballbot.cpp">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClCompile>
+    <ClCompile Include="BallCarry.cpp">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClCompile>
+    <ClCompile Include="Eyelet.cpp">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClCompile>
+    <ClCompile Include="GX680S.cpp">
+      <Filter>Game Source\Game Object\Enemy\Top Down</Filter>
+    </ClCompile>
+    <ClCompile Include="GX680.cpp">
+      <Filter>Game Source\Game Object\Enemy\Top Down</Filter>
+    </ClCompile>
+    <ClCompile Include="Stuka.cpp">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClCompile>
+    <ClCompile Include="Interrupt.cpp">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserGuard.cpp">
+      <Filter>Game Source\Game Object\Enemy\Top Down</Filter>
+    </ClCompile>
+    <ClCompile Include="Neoworm.cpp">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaCabin.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaGun.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaLeftWheel.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaMiddle.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaRightWheel.cpp">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game Source\Game Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperBeam.cpp">
+      <Filter>Game Source\Game Object\Bullet\Player Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Source\Game Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTag.cpp">
+      <Filter>Framework\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractItem.cpp">
+      <Filter>Game Source\Game Object\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerItem.cpp">
+      <Filter>Game Source\Game Object\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="HoverItem.cpp">
+      <Filter>Game Source\Game Object\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Game Source\Game Object\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="BallBomb.cpp">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BigJason.cpp">
+      <Filter>Game Source\Game Object\Player\Big Jason</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniPortal.cpp">
+      <Filter>Game Source\Game Object\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualEffect.cpp">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallExplosion.cpp">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="BigExplosion.cpp">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="NeowormLarva.cpp">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="JasonBullet.cpp">
+      <Filter>Game Source\Game Object\Bullet\Player Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BigJasonBullet.cpp">
+      <Filter>Game Source\Game Object\Bullet\Player Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Firework.cpp">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomExplosion.cpp">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Game Source\Game Object\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="SophiaExplosion.cpp">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBullet.cpp">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="GX680Bullet.cpp">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Thorn.cpp">
+      <Filter>Game Source\Game Object\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Game Source\Game Object\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTrigger.cpp">
+      <Filter>Game Source\Game Object\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableBrick.cpp">
+      <Filter>Game Source\Game Object\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="GunFlashX.cpp">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="GunFlashY.cpp">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="BossZ88.cpp">
+      <Filter>Game Source\Game Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Z88Bullet.cpp">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinBullet.cpp">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Framework\Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animations.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Framework\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Framework\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEventHandler.h">
+      <Filter>Framework\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Framework\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Playable.h">
+      <Filter>Game Source\Game Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>Framework\Space Partitioning</Filter>
+    </ClInclude>
+    <ClInclude Include="Sophia.h">
+      <Filter>Game Source\Game Object\Player\Sophia</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaState.h">
+      <Filter>Game Source\Game Object\Player\Sophia</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaMoveRightState.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Action State</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaMoveLeftState.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Action State</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaIdleState.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Action State</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaUpwardState.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Direct State</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaHorizontalState.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Direct State</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaUpward45State.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Direct State</Filter>
+    </ClInclude>
+    <ClInclude Include="Jason.h">
+      <Filter>Game Source\Game Object\Player\Jason</Filter>
+    </ClInclude>
+    <ClInclude Include="Drap.h">
+      <Filter>Game Source\Game Object\Enemy\Top Down</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2D.h">
+      <Filter>Framework\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BallCarry.h">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClInclude>
+    <ClInclude Include="Ballbot.h">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClInclude>
+    <ClInclude Include="Eyelet.h">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClInclude>
+    <ClInclude Include="GX680S.h">
+      <Filter>Game Source\Game Object\Enemy\Top Down</Filter>
+    </ClInclude>
+    <ClInclude Include="GX680.h">
+      <Filter>Game Source\Game Object\Enemy\Top Down</Filter>
+    </ClInclude>
+    <ClInclude Include="Interrupt.h">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClInclude>
+    <ClInclude Include="Stuka.h">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserGuard.h">
+      <Filter>Game Source\Game Object\Enemy\Top Down</Filter>
+    </ClInclude>
+    <ClInclude Include="Neoworm.h">
+      <Filter>Game Source\Game Object\Enemy\Scrolling</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaCabin.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaGun.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaLeftWheel.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaMiddle.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaRightWheel.h">
+      <Filter>Game Source\Game Object\Player\Sophia\Sophia Child</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperBeam.h">
+      <Filter>Game Source\Game Object\Bullet\Player Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game Source\Game Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Source\Game Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTag.h">
+      <Filter>Framework\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractItem.h">
+      <Filter>Game Source\Game Object\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerItem.h">
+      <Filter>Game Source\Game Object\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="HoverItem.h">
+      <Filter>Game Source\Game Object\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Game Source\Game Object\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="BallBomb.h">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BigJason.h">
+      <Filter>Game Source\Game Object\Player\Big Jason</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniPortal.h">
+      <Filter>Game Source\Game Object\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualEffect.h">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallExplosion.h">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="BigExplosion.h">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="NeowormLarva.h">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="JasonBullet.h">
+      <Filter>Game Source\Game Object\Bullet\Player Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BigJasonBullet.h">
+      <Filter>Game Source\Game Object\Bullet\Player Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Firework.h">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomExplosion.h">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Game Source\Game Object\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="SophiaExplosion.h">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBullet.h">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GX680Bullet.h">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Thorn.h">
+      <Filter>Game Source\Game Object\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Game Source\Game Object\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTrigger.h">
+      <Filter>Game Source\Game Object\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableBrick.h">
+      <Filter>Game Source\Game Object\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="GunFlashX.h">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="GunFlashY.h">
+      <Filter>Game Source\Game Object\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="BossZ88.h">
+      <Filter>Game Source\Game Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Z88Bullet.h">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinBullet.h">
+      <Filter>Game Source\Game Object\Bullet\Enemy Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
